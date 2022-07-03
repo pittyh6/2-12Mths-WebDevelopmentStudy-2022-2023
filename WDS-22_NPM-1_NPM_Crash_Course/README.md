@@ -8,7 +8,10 @@
    
 ## What I learned/used
 * NPM
-
+    * commandLine Terminal
+        * version 
+            * npm -v
+            
 
         
 
