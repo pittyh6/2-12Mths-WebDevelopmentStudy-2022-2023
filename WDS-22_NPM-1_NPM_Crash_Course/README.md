@@ -33,6 +33,12 @@
             * npm config set init-nameProperty "whatYouWantToAddOrChange"
                 * npm config set init-author-name "Pitty" //full line code
                 * npm set init-license "MIT" //dont  need to use set
+                * npm init --yes
+        * Get the information from the package.json file
+            * npm config get init-nameProperty //full command line
+            * npm get init-nameProperty // without config. Do not need write config
+                * npm get init-author-name
+
 
 
 
