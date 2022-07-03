@@ -3,7 +3,7 @@
 
 ![Begin Banner](Documentation/top-1200x350.gif)
 
-### First Month / Sprint(June 01/07 - 31/07)
+### Second Month / Sprint(June 01/07 - 31/07)
 * Online courses, challenges and creation of my own projects.
 
 ## What I learned/used (Link for details)
