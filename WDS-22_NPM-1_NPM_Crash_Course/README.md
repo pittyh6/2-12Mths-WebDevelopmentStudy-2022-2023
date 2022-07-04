@@ -42,7 +42,16 @@
             * npm config delete init-nameProperty
                 * npm config delete init-author-name
             * npm init -y
-            
+    * install modules
+        * npm install nameModule
+        * lodash
+            * npm install lodash --save //is important to put --save
+    * add modules to the file.js
+        * const nameConst = require('nameModule')
+            * const _ = require('lodash')
+    * run file
+        * node nameFile.js
+            * node index.js
 
 
 
@@ -51,8 +60,5 @@
 
 
 
-        
 
-   
-
-![End Banner](Documentation/botton-1200x350.gif)
+![End Banner](Documentation/botton-1200x350.gif)   
