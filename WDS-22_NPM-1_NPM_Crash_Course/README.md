@@ -29,7 +29,7 @@
                 * license
             * npm init --yes 
             * npm init -y 
-        * Modify
+        * Modify/config default
             * npm config set init-nameProperty "whatYouWantToAddOrChange"
                 * npm config set init-author-name "Pitty" //full line code
                 * npm set init-license "MIT" //dont  need to use set
@@ -38,7 +38,11 @@
             * npm config get init-nameProperty //full command line
             * npm get init-nameProperty // without config. Do not need write config
                 * npm get init-author-name
-
+        * delete default
+            * npm config delete init-nameProperty
+                * npm config delete init-author-name
+            * npm init -y
+            
 
 
 
