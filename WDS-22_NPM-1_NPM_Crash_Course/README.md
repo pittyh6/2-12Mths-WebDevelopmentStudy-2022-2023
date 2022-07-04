@@ -52,7 +52,9 @@
     * run file
         * node nameFile.js
             * node index.js
-
+    * after clone the projects
+        * because you install with --save
+            * npm install //it will install everything (modules) that needs to run your project. It going to look inside the package.json and install all dependencies.
 
 
 
