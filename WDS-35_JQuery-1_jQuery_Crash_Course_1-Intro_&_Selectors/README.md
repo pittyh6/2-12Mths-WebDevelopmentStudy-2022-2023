@@ -8,6 +8,12 @@
    
 ## What I learned/used
 * JQuery
+    * selectors
+    * Events
+    * DOM manipulation
+    * Methods
+    * Effects & Animation
+    * Ajax
 
 
         
