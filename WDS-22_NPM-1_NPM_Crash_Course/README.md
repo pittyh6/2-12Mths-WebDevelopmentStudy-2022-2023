@@ -52,11 +52,16 @@
     * run file
         * node nameFile.js
             * node index.js
-    * after clone the projects
+    * dev dependencies -> only going to be used in development and for dev not in production
+        * install
+            * npm install --save-dev nameModuke namePlugins
+                * npm instal --save-dev gulp gulp-sass
+    * Dependencies -> after clone the projects
         * because you install with --save
             * npm install //it will install everything (modules) that needs to run your project. It going to look inside the package.json and install all dependencies.
-
-
+    * instal regular Dependencies -> after clone the projects
+        * because you install with --save & --save-dev
+            * npm install --production
 
 
 

@@ -2,9 +2,13 @@ Install nodeJS
 
 https://docs.npmjs.com/
 
-*lodash.
+* lodash.
 Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
 Lodash’s modular methods are great for:
     Iterating arrays, objects, & strings
     Manipulating & testing values
     Creating composite functions
+
+* gulp
+A toolkit to automate & enhance your workflow
+Leverage gulp and the flexibility of JavaScript to automate slow, repetitive workflows and compose them into efficient build pipelines.
