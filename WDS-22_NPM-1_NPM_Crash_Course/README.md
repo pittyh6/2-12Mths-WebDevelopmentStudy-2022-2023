@@ -76,9 +76,24 @@
                 * npm rm lodash --save
             * npm remove nameDependencies --save-dev
     * Semantic Versioning
-    
+        * numbers
+        * symbols
+            * ^
+            * ~ 
+            * ""
+            * "*"
 
-
+    * GLOBAL MODULES
+        * root paths
+            * npm root -g
+        * install
+            * npm install -g nameModule // -g means globally
+                * npm install -g nodemon
+        * run nodemon
+            * nodemon
+        * stop nodemon
+            * ctrl + c
+        
 
 
 ![End Banner](Documentation/botton-1200x350.gif)   
