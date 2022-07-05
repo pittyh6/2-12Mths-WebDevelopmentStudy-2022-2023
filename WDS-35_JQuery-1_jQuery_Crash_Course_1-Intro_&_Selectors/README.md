@@ -7,7 +7,7 @@
 ![Middle Banner](/WDS-35_JQuery-1_jQuery_Crash_Course_1-Intro_&_Selectors/wds-35.png)
    
 ## What I learned/used
-* NPM
+* JQuery
 
 
         
