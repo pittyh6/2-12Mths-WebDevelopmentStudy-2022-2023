@@ -46,6 +46,12 @@
         * npm install nameModule
         * lodash
             * npm install lodash --save //is important to put --save
+    * instal specific version
+        * npm  install nameModule@version
+            * npm install lodash@4.17.3 --save
+    * Update to the latest version
+        * npm update nameModule
+            * npm update lodash
     * add modules to the file.js
         * const nameConst = require('nameModule')
             * const _ = require('lodash')
@@ -54,7 +60,7 @@
             * node index.js
     * dev dependencies -> only going to be used in development and for dev not in production
         * install
-            * npm install --save-dev nameModuke namePlugins
+            * npm install --save-dev nameModule namePlugins
                 * npm instal --save-dev gulp gulp-sass
     * Dependencies -> after clone the projects
         * because you install with --save
@@ -62,8 +68,15 @@
     * instal regular Dependencies -> after clone the projects
         * because you install with --save & --save-dev
             * npm install --production
-
-
+    * UnInstall dependencies
+        * uninstall, remove, rm, un
+            * npm uninstall nameDependencies --save-dev
+                * npm uninstall gulp-sass --save-dev
+            * npm uninstall nameDependencies --save
+                * npm rm lodash --save
+            * npm remove nameDependencies --save-dev
+    * Semantic Versioning
+    
 
 
 
