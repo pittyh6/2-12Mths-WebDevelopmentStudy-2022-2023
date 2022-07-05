@@ -2,11 +2,7 @@
 ## 12 months web developer study. I decided to dedicate at least 12 months to learn web development.
 
 ![Begin Banner](Documentation/top-1200x350.gif)
- 
-# Result
-![Middle Banner](/WDS-22_NPM-1_NPM_Crash_Course/wds-22.png)
-   
-## What I learned/used
+ ## What I learned/used
 * NPM
     * commandLine Terminal
         * version 
@@ -93,6 +89,28 @@
             * nodemon
         * stop nodemon
             * ctrl + c
+        * live-server
+            * install
+                * npm install live-server -g
+            * run
+                * live-server
+            * stop live
+                * ctrl + c
+        * UnInstall
+            * npm remove -g nameModule
+            * npm uninstall -g nameModule
+                * npm remove -g live-server
+    * list 
+        * npm list //everything
+        * npm list --depth 0 // for top list
+        * npm list --depth 1 
+        * npm list --depth 2
+        * npm list --depth theNumberyouWantToCheck
+    * NPM Scripts
+        * "start": "node index.js"
+            * run
+                * npm start
+
         
 
 
