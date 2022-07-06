@@ -8,6 +8,8 @@
    
 ## What I learned/used
 * JQuery
+    * add to html file
+        * script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script
     * selectors
     * Events
     * DOM manipulation
