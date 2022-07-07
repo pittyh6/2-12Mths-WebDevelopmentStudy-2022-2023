@@ -11,6 +11,15 @@
     * add to html file
         * script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script
     * selectors
+        * $('') or $("")
+            * $('h1') //for tags
+            * $('#nameId') //for ID
+            * $('.nameClass') //for CLASS
+            * $('h1#heading')
+    * Methods
+        * .hide()
+        * .fadeOut()
+        * .fadeIn()
     * Events
     * DOM manipulation
     * Methods
