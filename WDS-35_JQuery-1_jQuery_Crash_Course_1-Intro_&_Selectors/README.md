@@ -25,7 +25,16 @@
             * nth-child(3n)//every 3 element is going to be changed
             * :event
             * :odd
-            
+            * type
+                * :button
+                * :submit
+                * :text
+            * attributes
+                * $('[attributeName]')
+                    * $('[href]')
+            * attribute value
+                * $('a[href="link"]')
+            * $('*') //everything      
     * Methods
         * .hide()
         * .fadeOut()
@@ -34,7 +43,6 @@
             * .css('color', 'red')
     * Events
     * DOM manipulation
-    * Methods
     * Effects & Animation
     * Ajax
 

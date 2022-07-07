@@ -56,6 +56,13 @@
             <li>List Item</li>
             <li>List Item</li>
         </ul>
+
+        <input type="button" value="Button 1">
+        <input type="submit" value="Submit 1">
+        <input type="text" >
+
+        <a href="https://www.google.com/maps">Maps</a>
+        <a href="https://www.google.com.au/imghp?hl=en-GB&tab=ri&authuser=0&ogbl">Images</a>
     </div>
 
     <script>
@@ -63,14 +70,25 @@
         $('#heading1').fadeIn()
         $('.para2').fadeOut()
         $('p span').css('color', 'red')
-
+      
         $('ul#list li:first').css('color', 'green')
         $('ul#list li:last').css('color', 'blue')
         $('ul#list li:nth(3)').css('color', 'orange')
         $('ul#list li:nth-child(3n').css('list-style', 'none')
         $('ul#list li:even').css('background', '#cccc')
         $('ul#list li:odd').css('background', '#c1c1')
-        
+        //type
+        $(':button').fadeOut()
+        $(':text').fadeOut()
+        $(':submit').fadeOut()
+        //attribute
+        $('[href]').css('color', 'yellow')
+        // attribute value
+        $('a[href="https://www.google.com/maps"]').css('color', 'purple')
+
+        //EVERYTHING
+        $('*').fadeIn()
+
     </script>
 </body>
 </html>
