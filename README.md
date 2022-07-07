@@ -20,6 +20,7 @@
 
 * (JQuery 1) - JQuery Crash Course (Selectors) [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023/tree/master/WDS-35_JQuery-1_jQuery_Crash_Course_1-Intro_%26_Selectors)
 
+* (JQuery 2) - JQuery Crash Course (Events) [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023/tree/master/WDS-37_JQuery-2_jQuery_Crash_Course_2-Events)
 
 ## Previous Project
 * (1) 12Mths Web Development Study [link](https://github.com/pittyh6/1-12Mths-WebDevelopmentStudy-2022-2023)
