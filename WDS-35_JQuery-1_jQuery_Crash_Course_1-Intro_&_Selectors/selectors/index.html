@@ -44,12 +44,33 @@
              animi natus optio odit nihil inventore id accusamus, laboriosam rem mollitia minima 
              necessitatibus sit ullam? Ad, exercitationem corporis?
         </p>
+
+        <ul id="list">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
     </div>
 
     <script>
         $('h1').hide()
         $('#heading1').fadeIn()
         $('.para2').fadeOut()
+        $('p span').css('color', 'red')
+
+        $('ul#list li:first').css('color', 'green')
+        $('ul#list li:last').css('color', 'blue')
+        $('ul#list li:nth(3)').css('color', 'orange')
+        $('ul#list li:nth-child(3n').css('list-style', 'none')
+        $('ul#list li:even').css('background', '#cccc')
+        $('ul#list li:odd').css('background', '#c1c1')
+        
     </script>
 </body>
 </html>

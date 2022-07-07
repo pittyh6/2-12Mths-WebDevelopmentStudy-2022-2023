@@ -16,10 +16,22 @@
             * $('#nameId') //for ID
             * $('.nameClass') //for CLASS
             * $('h1#heading')
+            * inner selectors
+                * $('p span')
+            * $('ul#list li')// ul which has an id = list
+            * :first
+            * :last
+            * :nth(positionElement)
+            * nth-child(3n)//every 3 element is going to be changed
+            * :event
+            * :odd
+            
     * Methods
         * .hide()
         * .fadeOut()
         * .fadeIn()
+        * .css('property','value')
+            * .css('color', 'red')
     * Events
     * DOM manipulation
     * Methods
