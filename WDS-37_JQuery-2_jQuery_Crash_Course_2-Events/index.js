@@ -46,4 +46,18 @@ $(document).ready(function(){
     $('input').keyup(function(e){
         console.log(e.target.value)
     })
+
+    $('select#gender').change(function(e){
+        alert('gender was changed ' + e.target.value)
+    })
+
+
+    $('#form').submit(function(e){
+        e.preventDefault()
+        let name = $('#name').val()
+        let email = $('#email').val()
+
+        console.log(name, email)
+    })
+
 });

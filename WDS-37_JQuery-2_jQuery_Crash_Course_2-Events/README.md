@@ -27,12 +27,16 @@
         * focus()
         * blur // the oposite to focus()
         * keyup
+        * change() //The change event is sent to an element when its value changes.
+        * submit //The submit event is sent to an element when the user is attempting to submit a form.
     * .ready()//run when document is ready
         * $(document).ready(function(){....})
     * Methods
         * show()
         * hide()
         * toggle()
+        * val() //for the value
+        * preventDefault()
     * Selector
         * this
             * $(this)...... // used in focus  example. Whatever was clicked, that on was selected.
