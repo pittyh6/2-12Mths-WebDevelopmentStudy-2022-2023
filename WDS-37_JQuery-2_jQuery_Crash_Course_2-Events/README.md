@@ -8,8 +8,24 @@
    
 ## What I learned/used
 * JQuery
-    * Events
-
+    * Events Mouse
+        * on('theAction', function(){...})
+            $('#btn').on('click',function(){....})
+        * click(function(){.....})
+        * click(function(e){...}) //get the information about the element
+        * dblclick(function(){.....})
+        * hover() //mouseenter()+ mouseleave()
+        * mouseenter()
+        * mouseleave()
+        * mousemove()
+        * mouseup()
+        * mousedown()
+    * .ready()//run when document is ready
+        * $(document).ready(function(){....})
+    * Methods
+        * show()
+        * hide()
+        * toggle()
 
         
 

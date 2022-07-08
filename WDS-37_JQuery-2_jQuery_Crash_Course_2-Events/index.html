@@ -33,11 +33,45 @@
         <h1>JQuery Crash Course | Selectors</h1>
     </header>
     <div id="container">
-      
+      <h3>Mouse events</h3>
+      <button id="btn1">Button 1</button>
+      <button id="btn2">Button 2</button>
+      <button id="btn3">Button 3</button>
+      <button id="btn4">Button 4</button>
+      <button id="btn5">Button 5</button>
+      <button id="btn6">Button 6</button>
+      <p class="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam itaque dicta a, nemo quidem perferendis consequatur magni quod ipsum ipsa, 
+        provident corporis voluptates qui illum asperiores quae nam. Hic, dicta.</p>
     </div>
 
     <script>
-       
+        $(document).ready(function(){
+            $('#btn1').click(function(){
+                $('.para1').toggle()
+            });
+            $('#btn2').on('click', function(){
+                $('.para1').show();
+            })
+            $('#btn3').on('click', function(){
+                $('.para1').hide();
+            })
+            $('#btn4').dblclick(function(){
+                $('.para1').toggle();
+            })
+            $('#btn4').mousemove(function(){
+                $('.para1').toggle();
+            })
+            $('#btn5').mousedown(function(){
+                $('.para1').show()
+            });
+            $('#btn5').mouseup(function(){
+                $('.para1').hide()
+            });
+            $('#btn6').click(function(e){
+                console.log(e)
+            })
+        });
+        
     </script>
 </body>
 </html>
