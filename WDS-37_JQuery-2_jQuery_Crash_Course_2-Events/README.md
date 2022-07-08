@@ -13,6 +13,10 @@
             $('#btn').on('click',function(){....})
         * click(function(){.....})
         * click(function(e){...}) //get the information about the element
+            * e //return everything
+            * e.currentTarget// return the element itself
+            * e.currentTarget.id //return the id
+            * e.currentTarget.innerHTML //return the html text
         * dblclick(function(){.....})
         * hover() //mouseenter()+ mouseleave()
         * mouseenter()

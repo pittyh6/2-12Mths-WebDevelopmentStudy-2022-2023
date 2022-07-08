@@ -23,4 +23,14 @@ $(document).ready(function(){
     $('#btn6').click(function(e){
         console.log(e)
     })
+    $('#btn6').click(function(e){
+        console.log(e.currentTarget.innerHTML)
+    })
+
+    $(document).mousemove(function(e){
+        console.log('cords: Y: ' + e.clientY + ' x: ' + e.clientX) 
+    })
+    $(document).mousemove(function(e){
+        $('#cords').html('cords: Y: ' + e.clientY + ' x: ' + e.clientX) 
+    })
 });
