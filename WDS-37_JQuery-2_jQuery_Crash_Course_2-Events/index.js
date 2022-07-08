@@ -28,9 +28,22 @@ $(document).ready(function(){
     })
 
     $(document).mousemove(function(e){
-        console.log('cords: Y: ' + e.clientY + ' x: ' + e.clientX) 
+        //console.log('cords: Y: ' + e.clientY + ' x: ' + e.clientX) 
     })
     $(document).mousemove(function(e){
         $('#cords').html('cords: Y: ' + e.clientY + ' x: ' + e.clientX) 
+    })
+
+    //form
+    $('input').focus(function(e){ 
+        //console.log(e.target)
+      $(this).css('background','red')
+    })
+    $('input').blur(function(e){ 
+        //console.log(e.target)
+      $(this).css('background','#fff')
+    })
+    $('input').keyup(function(e){
+        console.log(e.target.value)
     })
 });

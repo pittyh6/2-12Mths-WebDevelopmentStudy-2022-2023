@@ -24,12 +24,18 @@
         * mousemove()
         * mouseup()
         * mousedown()
+        * focus()
+        * blur // the oposite to focus()
+        * keyup
     * .ready()//run when document is ready
         * $(document).ready(function(){....})
     * Methods
         * show()
         * hide()
         * toggle()
+    * Selector
+        * this
+            * $(this)...... // used in focus  example. Whatever was clicked, that on was selected.
 
         
 
