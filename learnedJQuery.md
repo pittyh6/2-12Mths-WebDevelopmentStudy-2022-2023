@@ -34,13 +34,42 @@
                     * $('[href]')
             * attribute value
                 * $('a[href="link"]')
-            * $('*') //everything      
+            * $('*') //everything    
+        * this
+            * $(this)...... // used in focus  example. Whatever was clicked, that on was selected.  
     * Methods
         * .hide()
+        * show()
+        * toggle()
         * .fadeOut()
         * .fadeIn()
         * .css('property','value')
             * .css('color', 'red')
+        * val() //for the value
+        * preventDefault()
+     * Events Mouse
+        * on('theAction', function(){...})
+            $('#btn').on('click',function(){....})
+        * click(function(){.....})
+        * click(function(e){...}) //get the information about the element
+            * e //return everything
+            * e.currentTarget// return the element itself
+            * e.currentTarget.id //return the id
+            * e.currentTarget.innerHTML //return the html text
+        * dblclick(function(){.....})
+        * hover() //mouseenter()+ mouseleave()
+        * mouseenter()
+        * mouseleave()
+        * mousemove()
+        * mouseup()
+        * mousedown()
+        * focus()
+        * blur // the oposite to focus()
+        * keyup
+        * change() //The change event is sent to an element when its value changes.
+        * submit //The submit event is sent to an element when the user is attempting to submit a form.
+    * .ready()//run when document is ready
+        * $(document).ready(function(){....})
 
 
 ![End Banner](Documentation/botton-1200x350.gif)
