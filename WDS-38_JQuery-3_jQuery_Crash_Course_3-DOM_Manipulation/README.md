@@ -15,8 +15,12 @@
         * .removeClass('className)
         * .click(function(){})
         * .toggleClass()
-        
-
+        * .text()
+        * .html()
+        * .append() // add at the end
+        * .prepend() // add at the beginning
+        * appendTo('')
+        * prepenTo('')
 
         
 

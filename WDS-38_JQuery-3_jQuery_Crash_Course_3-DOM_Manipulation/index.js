@@ -11,4 +11,11 @@ $(document).ready(function(){
     $('#myDiv').text('Hello World');
 	$('#myDiv').html('<h3>Hello World</h3>');
 	//alert($('#myDiv').text());
+
+    $('ul').append('<li>Append List Item</li>'); //last
+	$('ul').prepend('<li>Prepend List Item</li>');//fist
+    $('.para1').appendTo('.para2');
+    $('.para1').prependTo('.para2');
+    $('ul').before('<h4>Hello</h4>');
+    $('ul').after('<h4>World</h4>');
 });
