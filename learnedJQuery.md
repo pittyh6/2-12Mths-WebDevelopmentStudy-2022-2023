@@ -95,6 +95,17 @@
         * Array
             * $.each(arrayName, function(i,val){....})
             * .toArray()
-
+    * Effects & Animation
+        * .fadeOut()
+            * 'slow'/ 'fast' / number of milliseconds
+        * .fadeIn()
+            * 'slow'/ 'fast' / number of milliseconds
+        * .fadeToggle()
+            * 'slow'/ 'fast' / number of milliseconds
+        * .slideUp()
+        * .slideDown()
+        * .slideToggle()
+        * .stop()
+        * .animate({})
 
 ![End Banner](Documentation/botton-1200x350.gif)

@@ -5,6 +5,7 @@
  
 # Result
 ![Middle Banner](/WDS-39_JQuery-4_jQuery_Crash_Course_4-Effects_and_Animation/wds-39.png)
+![Middle Banner](/WDS-39_JQuery-4_jQuery_Crash_Course_4-Effects_and_Animation/wds-39-2.png)
    
 ## What I learned/used
 * JQuery
@@ -20,9 +21,7 @@
         * .slideToggle()
         * .stop()
         * .animate({})
-        * .
-
-        
+         
 
    
 
