@@ -38,5 +38,36 @@ $(document).ready(function(){
         $('#box').stop()
     })
 
+    $('#moveLeft').click(function(){ 
+        $('#box2').animate({
+            left: 300,
+            height: '300',
+            width: '300',
+            opacity:'0.5'
+        })
+    })
+    $('#moveRight').click(function(){ 
+        $('#box2').animate({
+            left: 0,
+            height: '100',
+            width: '100',
+            opacity: '1'
+        })
+    })
 
+    $('#moveAround').click(function(){ 
+        let box = $('#box2')
+        box.animate({
+            left: 300
+        })
+        box.animate({
+            top: 300
+        })
+        box.animate({
+            left: 0
+        })
+        box.animate({
+            top: 0
+        })
+    })
 });

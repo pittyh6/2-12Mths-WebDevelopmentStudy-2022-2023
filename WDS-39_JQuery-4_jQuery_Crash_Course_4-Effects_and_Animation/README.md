@@ -19,7 +19,7 @@
         * .slideDown()
         * .slideToggle()
         * .stop()
-        * .
+        * .animate({})
         * .
 
         
