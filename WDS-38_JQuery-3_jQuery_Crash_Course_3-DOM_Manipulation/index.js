@@ -25,5 +25,7 @@ $(document).ready(function(){
     $('a').attr('target', '_blank');
     //alert($('a').attr('href'));
     $('a').removeAttr('target');
-    
+
+    $('p').wrap('<h1>');
+	$('p').wrapAll('<h1>');
 });

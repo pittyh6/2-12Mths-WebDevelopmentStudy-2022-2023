@@ -27,7 +27,8 @@
         * .detach()
         * .attr('')//The .attr() method gets the attribute value for only the first element in the matched set. To get the value for each element individually, use a looping construct such as jQuery's .each() or .map() method.
         * .removeAttr()
-        * .
+        * .wrap('<tagName>')
+        * .wrapAll('<tagName>')
 
         
 
