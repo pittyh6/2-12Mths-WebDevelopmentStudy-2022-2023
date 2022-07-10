@@ -21,4 +21,9 @@ $(document).ready(function(){
 
     $('ul').empty();
     $('ul').detach();
+
+    $('a').attr('target', '_blank');
+    //alert($('a').attr('href'));
+    $('a').removeAttr('target');
+    
 });
