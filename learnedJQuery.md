@@ -107,5 +107,11 @@
         * .slideToggle()
         * .stop()
         * .animate({})
+    * Ajax
+        * .load()
+        * . $('#result').load('test.html', function (responseTxt, statusTXT, xhr){}
+        * .get('', function(){})
+        * .getJSON()
+        * .ajax({})
 
 ![End Banner](Documentation/botton-1200x350.gif)

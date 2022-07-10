@@ -5,17 +5,16 @@
  
 # Result
 ![Middle Banner](/WDS-40_JQuery-5_jQuery_Crash_Course_5-Ajax/wds-40.png)
+![Middle Banner](/WDS-40_JQuery-5_jQuery_Crash_Course_5-Ajax/wds-40-2.png)
    
 ## What I learned/used
 * JQuery
     * Ajax
         * .load()
-        * .
-        * .
-        * .
-        * .
-        * .
-        * .
+            * . $('#result').load('test.html', function(responseTxt, statusTXT, xhr){}
+        * .get('', function(){})
+        * .getJSON()
+        * .ajax({})
 
 
         

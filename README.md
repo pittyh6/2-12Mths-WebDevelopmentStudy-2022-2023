@@ -27,6 +27,8 @@
 
 * (JQuery 4) - JQuery Crash Course (Effects and Animation) [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023/tree/master/WDS-39_JQuery-4_jQuery_Crash_Course_4-Effects_and_Animation)
 
+* (JQuery 5) - JQuery Crash Course (Ajax) [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023/tree/master/WDS-40_JQuery-5_jQuery_Crash_Course_5-Ajax)
+
 ## Previous Project
 * (1) 12Mths Web Development Study [link](https://github.com/pittyh6/1-12Mths-WebDevelopmentStudy-2022-2023)
 ## Tools
