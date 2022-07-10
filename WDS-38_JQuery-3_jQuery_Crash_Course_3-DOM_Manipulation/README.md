@@ -5,6 +5,7 @@
  
 # Result
 ![Middle Banner](/WDS-38_JQuery-3_jQuery_Crash_Course_3-DOM_Manipulation/wds-38.png)
+![Middle Banner](/WDS-38_JQuery-3_jQuery_Crash_Course_3-DOM_Manipulation/wds-38-2.png)
    
 ## What I learned/used
 * JQuery

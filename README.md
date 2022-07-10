@@ -24,6 +24,8 @@
 
 * (JQuery 3) - JQuery Crash Course (DOM Manipulation) [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023/tree/master/WDS-38_JQuery-3_jQuery_Crash_Course_3-DOM_Manipulation)
 
+* (JQuery 4) - JQuery Crash Course (Effects and Animation) [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023/tree/master/WDS-39_JQuery-4_jQuery_Crash_Course_4-Effects_and_Animation)
+
 ## Previous Project
 * (1) 12Mths Web Development Study [link](https://github.com/pittyh6/1-12Mths-WebDevelopmentStudy-2022-2023)
 ## Tools
