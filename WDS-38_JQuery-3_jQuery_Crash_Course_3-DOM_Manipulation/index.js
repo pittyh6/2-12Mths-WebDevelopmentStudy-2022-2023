@@ -28,4 +28,12 @@ $(document).ready(function(){
 
     $('p').wrap('<h1>');
 	$('p').wrapAll('<h1>');
+
+    $('#newItem').keyup(function(e){
+        var code = e.which;
+        if(code == 13){ //13 is enter
+            e.preventDefault();
+            $('ul').append('<li>'+e.target.value+'</li>');
+        }
+    });
 });

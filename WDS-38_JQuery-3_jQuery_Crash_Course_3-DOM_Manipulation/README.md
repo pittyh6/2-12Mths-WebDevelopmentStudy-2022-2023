@@ -29,6 +29,10 @@
         * .removeAttr()
         * .wrap('<tagName>')
         * .wrapAll('<tagName>')
+        * .keyup()
+        * .
+        * .
+        * .
 
         
 
