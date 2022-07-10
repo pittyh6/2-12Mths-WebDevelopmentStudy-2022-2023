@@ -8,6 +8,14 @@
    
 ## What I learned/used
 * JQuery
+    * DOM Manipulation
+        * $('element').css('property','value') //single
+        * .css({property: 'value', property: 'value', ......})// multiple -> objects
+        * .addClass('className')//add a class (css)
+        * .removeClass('className)
+        * .click(function(){})
+        * .toggleClass()
+        
 
 
         
