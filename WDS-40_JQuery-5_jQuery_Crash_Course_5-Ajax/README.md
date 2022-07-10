@@ -7,11 +7,21 @@
 ![Middle Banner](/WDS-40_JQuery-5_jQuery_Crash_Course_5-Ajax/wds-40.png)
    
 ## What I learned/used
-* NPM
+* JQuery
+    * Ajax
+        * .load()
+        * .
+        * .
+        * .
+        * .
+        * .
+        * .
 
 
         
-
+//
+What About jQuery and AJAX? jQuery provides several methods for AJAX functionality. With the jQuery AJAX methods, you can request text, HTML, XML, or JSON from a remote server using both HTTP Get and HTTP Post - And you can load the external data directly into the selected HTML elements of your web page!
+//
    
 
 ![End Banner](Documentation/botton-1200x350.gif)
