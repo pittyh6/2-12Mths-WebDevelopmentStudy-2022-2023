@@ -21,6 +21,13 @@
         * .prepend() // add at the beginning
         * appendTo('')
         * prepenTo('')
+        * .before()
+        * .after()
+        * .empty() //takes the HTML out
+        * .detach
+        * .
+        * .
+        * .
 
         
 

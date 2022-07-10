@@ -18,4 +18,7 @@ $(document).ready(function(){
     $('.para1').prependTo('.para2');
     $('ul').before('<h4>Hello</h4>');
     $('ul').after('<h4>World</h4>');
+
+    $('ul').empty();
+    $('ul').detach();
 });
