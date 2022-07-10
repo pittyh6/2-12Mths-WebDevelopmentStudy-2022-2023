@@ -19,8 +19,8 @@ $(document).ready(function(){
     $('ul').before('<h4>Hello</h4>');
     $('ul').after('<h4>World</h4>');
 
-    $('ul').empty();
-    $('ul').detach();
+    //$('ul').empty();
+    //$('ul').detach();
 
     $('a').attr('target', '_blank');
     //alert($('a').attr('href'));
@@ -36,4 +36,20 @@ $(document).ready(function(){
             $('ul').append('<li>'+e.target.value+'</li>');
         }
     });
+
+
+    //Array
+    var myArr = ['Brad', 'Kelley', 'Nate', 'Jose'];
+    $.each(myArr, function(i, val){
+        $('#users').append('<li>'+val+'</li>');
+    });
+
+
+    var newArr = $('ul#list li').toArray();
+    console.log(newArr);
+	$.each(newArr, function(i, val){
+		console.log(val.innerHTML);
+	});
+
+    
 });

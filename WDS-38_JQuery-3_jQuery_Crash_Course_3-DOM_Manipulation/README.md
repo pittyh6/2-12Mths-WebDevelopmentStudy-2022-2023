@@ -30,9 +30,9 @@
         * .wrap('<tagName>')
         * .wrapAll('<tagName>')
         * .keyup()
-        * .
-        * .
-        * .
+    * Array
+        * $.each(arrayName, function(i,val){....})
+        * .toArray()
 
         
 
